@@ -1,7 +1,4 @@
-// Variaveis Tipos Primitivos
-
-public class App {
-
+public class Variaveis {
     public static void main(String[] args) {
         // Tipos Inteiros:
         byte v01 = 99; // vai de -128 a 127
