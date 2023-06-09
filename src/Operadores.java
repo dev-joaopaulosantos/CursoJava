@@ -26,5 +26,13 @@ public class Operadores {
         System.out.println("n1 >= n2: " + (n1 >= n2));
         System.out.println("n1 < n2: " + (n1 < n2));
         System.out.println("n1 <= n2: " + (n1 <= n2));
+
+        // Operadores lógicos
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+
+        boolean resultado1 = (n1 == n2) && (n2 == 4);
+        boolean resultado2 = (n1 != 10) || (n2 == 4);
+        System.out.println("n1 é igual a n2 E n2 é igual a 4: " + resultado1);
+        System.out.println("n1 é diferente de 10 OU n2 é igual a 4: " + resultado2);
     }
 }
