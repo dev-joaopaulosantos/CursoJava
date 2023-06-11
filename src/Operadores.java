@@ -1,6 +1,7 @@
 public class Operadores {
     public static void main(String[] args) {
 
+        // Variáveis
         int n1 = 2;
         int n2 = 4;
         
