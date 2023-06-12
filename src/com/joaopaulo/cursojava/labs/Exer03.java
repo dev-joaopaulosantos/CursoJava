@@ -1,4 +1,4 @@
-package br.com.joaopaulo.labs;
+package com.joaopaulo.cursojava.labs;
 
 import java.util.Scanner;
 

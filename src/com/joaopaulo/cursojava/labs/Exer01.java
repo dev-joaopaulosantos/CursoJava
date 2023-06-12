@@ -1,4 +1,4 @@
-package br.com.joaopaulo.labs;
+package com.joaopaulo.cursojava.labs;
 
 public class Exer01 {
     public static void main(String[] args) {
