@@ -3,7 +3,7 @@ package com.joaopaulo.cursojava.labs;
 import java.util.Scanner;
 
 public class Exer13 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("*** CALCULADORA DE SÁLARIO ***");
 
         try (Scanner scan = new Scanner(System.in)) {
@@ -19,7 +19,7 @@ public class Exer13 {
             double ir = salario * 0.11;
             double descontos = inss + sindicato + ir;
             double salarioLiquido = salario - descontos;
-            
+
             System.out.println("Salário bruto: " + "R$" + String.format("%.2f", salario));
             System.out.println("Taxa INSS: " + "R$" + String.format("%.2f", inss));
             System.out.println("Taxa Sindicato: " + "R$" + String.format("%.2f", sindicato));
