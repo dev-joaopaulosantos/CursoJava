@@ -12,7 +12,7 @@ public class Exer10 {
 
             double farenheit = celsius * 1.8 + 32;
 
-            System.out.println(celsius + " °C = " + farenheit + " °F")
+            System.out.println(celsius + " °C = " + farenheit + " °F");
         };
     }
 }
