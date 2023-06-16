@@ -14,7 +14,9 @@ public class Exer08 {
             double qtdHoras = scan.nextDouble();
 
             double salario = valorHora * qtdHoras;
-            System.out.println("Seu salário é: " + "R$" + salario);
+            String resultado = String.format("%.2f", salario);
+            
+            System.out.println("Seu salário é: " + "R$" + resultado);
         }
     }
 }
