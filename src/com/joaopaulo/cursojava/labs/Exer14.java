@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exer14 {
     public static void main(String[] args) {
-        System.out.println("*** CALCULE SEU TEMPO DE DOWNLOAD ***");
+        System.out.println("*** CALCULE O TEMPO DO SEU DOWNLOAD ***");
 
         try (Scanner scan = new Scanner(System.in)) {
             System.out.print("Digite o tamanho do arquivo em MB: ");
