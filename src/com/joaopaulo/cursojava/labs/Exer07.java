@@ -12,9 +12,10 @@ public class Exer07 {
             double lado = scan.nextDouble();
 
             double area = Math.pow(lado, 2);
+            double dobroArea = area * 2;
 
-            System.out.println("Area do quadrado: " + area + "cm²");
-            System.out.println("Dobro da area do quadrado: " + (area * 2) + "cm²");
+            System.out.println("Area do quadrado: " + String.format("%.2f", area) + "cm²");
+            System.out.println("Dobro da area do quadrado: " + String.format("%.2f", dobroArea) + "cm²");
         }
     }
 }
