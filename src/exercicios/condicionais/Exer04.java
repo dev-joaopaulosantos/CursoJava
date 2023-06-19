@@ -8,14 +8,18 @@ public class Exer04 {
             System.out.print("Digite uma letra: ");
             String letra = scan.next();
 
-            if (letra.equalsIgnoreCase("a") ||
-                    letra.equalsIgnoreCase("e") ||
-                    letra.equalsIgnoreCase("i") ||
-                    letra.equalsIgnoreCase("o") ||
-                    letra.equalsIgnoreCase("u")) {
-                System.out.println("A letra digitada é uma VOGAL");
+            if (letra.length() > 1) {
+                System.out.println("Digite apenas uma letra!");
             } else {
-                System.out.println("A letra digitada é uma CONSOANTE");
+                if (letra.equalsIgnoreCase("a") ||
+                        letra.equalsIgnoreCase("e") ||
+                        letra.equalsIgnoreCase("i") ||
+                        letra.equalsIgnoreCase("o") ||
+                        letra.equalsIgnoreCase("u")) {
+                    System.out.println("A letra digitada é uma VOGAL");
+                } else {
+                    System.out.println("A letra digitada é uma CONSOANTE");
+                }
             }
         }
     }
