@@ -4,3 +4,5 @@
 2. Scanner (Ler dados do teclado)
 2. Operadores (Aritméticos, Relacionais, Lógicos)
 3. Exercicios (Variáveis, Operadores)
+4. Condicionais
+5. Exercicios (Condicionais)
