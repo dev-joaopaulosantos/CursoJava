@@ -15,12 +15,13 @@ public class Exer05 {
 
             double media = (nota1 + nota2) / 2;
 
+            System.out.print("Sua média é: " + media);
             if (media < 7) {
-                System.out.println("Sua média é: " + media + " = REPROVADO");
+                System.out.println(" = REPROVADO");
             } else if (media == 10) {
-                System.out.println("Sua média é: " + media + " = APROVADO COM DISTINÇÃO");
+                System.out.println(" = APROVADO COM DISTINÇÃO");
             } else {
-                System.out.println("Sua média é: " + media + " = APROVADO");
+                System.out.println(" = APROVADO");
             }
         }
     }
