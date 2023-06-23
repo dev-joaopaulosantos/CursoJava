@@ -5,4 +5,4 @@
 2. Operadores (Aritméticos, Relacionais, Lógicos)
 3. Exercicios (Variáveis, Operadores)
 4. Condicionais
-5. Exercicios (Condicionais)
+5. Exercicios (Condicionais - IF ELSE, SWITCT CASE)
