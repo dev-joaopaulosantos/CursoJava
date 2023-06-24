@@ -33,7 +33,7 @@ public class Exer13 {
                     dia = "Sábado";
                     break;
                 default:
-                    dia = "Número Inválido!";
+                    dia = "Não é um dia da semana válido!";
                     break;
             }
 
