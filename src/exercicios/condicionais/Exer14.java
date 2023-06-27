@@ -23,7 +23,7 @@ public class Exer14 {
             } else if (media < 6 && media > 4) {
                 conceito = "D";
             } else if (media <= 4 && media >= 0) {
-                conceito = "F";
+                conceito = "E";
             }
 
             if (media >= 0 && media < 6) {
