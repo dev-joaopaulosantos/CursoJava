@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exer18 {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
-            
+
             System.out.print("Digite um número: ");
             int num = scan.nextInt();
 
