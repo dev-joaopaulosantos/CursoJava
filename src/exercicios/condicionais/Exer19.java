@@ -27,10 +27,10 @@ public class Exer19 {
                     resultado = num1 - num2;
                     break;
                 case "/":
-                    resultado = num1 + num2;
+                    resultado = num1 / num2;
                     break;
                 case "*":
-                    resultado = num1 + num2;
+                    resultado = num1 * num2;
                     break;
                 default:
                     valida = false;
