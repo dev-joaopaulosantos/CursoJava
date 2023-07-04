@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exer01 {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
-            
+
             System.out.print("Digite um número de 0 a 10: ");
             int num = scan.nextInt();
 
@@ -15,6 +15,6 @@ public class Exer01 {
             }
         }
 
-        System.out.println("Você digitou um número valido!");
+        System.out.println("Você digitou um número válido!");
     }
 }
