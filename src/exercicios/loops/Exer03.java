@@ -28,7 +28,7 @@ public class Exer03 {
                 System.out.print("Sexo: ");
                 sexo = scan.next();
 
-                System.out.print("Estado Civil ( S / C / D / V ): ");
+                System.out.print("Estado Civil: ");
                 estadoCivil = scan.next();
 
                 if ((nome.length() > 3) && (idade > 0 && idade < 150) && (salario > 0)) {
