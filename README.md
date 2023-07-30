@@ -7,3 +7,5 @@
 4. Condicionais
 5. Exercicios (Condicionais - IF ELSE, SWITCT CASE)
 6. Loops (While, Do While, For)
+7. Arrays
+8. Matrizes (Multidimensionais, Tridimensionais, irregulares)
